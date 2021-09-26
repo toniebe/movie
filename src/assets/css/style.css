@@ -1,0 +1,45 @@
+.fakeimg {
+  background-color: #aaa;
+  width: 50%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.section {
+  width: 90%;
+  background-color: white;
+  margin: auto;
+  padding: 20px;
+}
+
+.row {
+  margin: 20px;
+  min-height: 100vh;
+}
+footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #000;
+  color: white;
+  vertical-align: middle;
+  text-align: center;
+  padding: 20px;
+}
+
+footer h5 {
+  color: #eee;
+}
